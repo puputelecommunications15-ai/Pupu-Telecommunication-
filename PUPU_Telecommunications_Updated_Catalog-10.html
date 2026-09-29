@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PUPU Telecommunications | Mobile Store</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#111827;background:#f5f8fc}
+.top{background:#071a30;color:white;padding:10px 6%;display:flex;justify-content:space-between;gap:15px;font-size:13px}
+nav{background:#fff;padding:17px 6%;display:flex;align-items:center;justify-content:space-between;gap:25px;position:sticky;top:0;z-index:10;box-shadow:0 2px 14px #0002}
+.logo{font-size:29px;font-weight:900;color:#071a30}.logo span{color:#166cff}.sub{display:block;font-size:9px;letter-spacing:3px;color:#697586;margin-top:2px}
+.search{flex:1;max-width:500px;border:1px solid #d9e1ec;border-radius:30px;padding:13px 20px;color:#8a94a5}
+.btn{display:inline-block;background:#ffd21c;color:#111;padding:12px 20px;border-radius:28px;font-weight:800;text-decoration:none}
+.navbar{background:#071a30;color:#fff;display:flex;justify-content:center;gap:48px;padding:13px;overflow:auto;white-space:nowrap}
+.navbar a{color:#fff;text-decoration:none;font-size:14px;font-weight:700}
+.hero{background:#071a30;padding:22px 4% 34px}.hero img{width:100%;max-width:1200px;display:block;margin:auto;border-radius:14px;box-shadow:0 18px 55px #0008}
+.brands{background:#fff;padding:22px 6%;text-align:center}.brands strong{font-size:18px}.brandrow{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;margin-top:15px;font-weight:900;color:#174fd0}
+section{padding:55px 6%}.title{text-align:center;margin-bottom:30px}.title h2{font-size:32px;margin:0 0 7px}.title p{color:#697586}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.card{background:#fff;border:1px solid #e5eaf1;border-radius:16px;padding:25px;text-align:center;box-shadow:0 7px 24px #17243b12}.card .ico{font-size:30px}.card h3{margin:10px 0 6px}.card p{margin:0;color:#697586;font-size:14px}
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.offer{background:#071a30;color:#fff;border-radius:17px;padding:27px}.offer h3{margin:0 0 8px;color:#ffd21c;font-size:23px}.offer p{color:#d1d9e5}.offer .btn{margin-top:8px}
+.branches{background:#071a30;color:#fff}.branchgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.branch{border:1px solid #29425f;border-radius:15px;padding:24px}.branch h3{color:#ffd21c;margin:0 0 7px}
+.contact{text-align:center;background:#fff}.phone{font-size:42px;font-weight:900;color:#166cff;margin:10px}.phone a{color:inherit;text-decoration:none}
+footer{background:#071a30;color:#b9c5d5;text-align:center;padding:30px;font-size:13px}
+@media(max-width:800px){.top{display:none}.search{display:none}.cards,.offers,.branchgrid{grid-template-columns:1fr 1fr}.navbar{justify-content:flex-start;gap:25px}}
+@media(max-width:520px){.cards,.offers,.branchgrid{grid-template-columns:1fr}.logo{font-size:24px}.hero{padding-left:2%;padding-right:2%}}
+
+.catalog-head{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:0 auto 28px}
+.chip{background:#eef4ff;border:1px solid #d6e3ff;color:#174fd0;border-radius:25px;padding:9px 15px;font-weight:800;font-size:13px}
+.catalog{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.brandbox{background:#fff;border:1px solid #e5eaf1;border-radius:16px;padding:22px;box-shadow:0 7px 24px #17243b12}
+.brandbox h3{margin:0 0 12px;color:#071a30;font-size:20px}
+.brandbox p{margin:7px 0;color:#697586;font-size:13px;line-height:1.5}
+.brandbox .range{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.range span{background:#f5f8fc;border-radius:8px;padding:6px 8px;font-size:12px;font-weight:700}
+.range .hot{background:#fff3b5;color:#6a5200}
+.gaming{background:linear-gradient(135deg,#071a30,#12365d);color:#fff}
+.gaming h3{color:#ffd21c}
+.gaming p{color:#d1d9e5}
+.gaming .range span{background:#ffffff18;color:#fff;border:1px solid #ffffff20}
+.capacity{background:#071a30;color:#fff}
+.capacity h3{color:#ffd21c}
+.capacity p{color:#d1d9e5}
+.capacity .range span{background:#ffffff12;color:#fff;border:1px solid #ffffff20}
+@media(max-width:900px){.catalog{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.catalog{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top">
+<span>🚚 Free Delivery (Within 10km)</span><span>🛡️ 100% Original Products</span><span>🏷️ Best Price Guarantee</span><span>💳 Easy EMI Options</span><span>📞 6290398830</span>
+</div>
+
+<nav>
+<div class="logo">PUPU <span>Telecommunications</span><small class="sub">MOBILE • ACCESSORIES • SERVICE</small></div>
+<div class="search">🔎 Search for mobiles, accessories...</div>
+<a class="btn" href="tel:6290398830">Call Now</a>
+</nav>
+
+<div class="navbar">
+<a href="#home">Home</a><a href="#mobiles">Mobiles</a><a href="#catalog">All Phones</a><a href="#accessories">Accessories</a><a href="#offers">Offers</a><a href="#branches">Our Branches</a><a href="#contact">Contact</a>
+</div>
+
+<main id="home">
+<div class="hero"><img src="store-showcase.png" alt="PUPU Telecommunications mobile store with model promoting all brands"></div>
+
+<div class="brands">
+<strong>ALL BRANDS AVAILABLE</strong>
+<div class="brandrow"><span>vivo</span><span>OPPO</span><span>realme</span><span>SAMSUNG</span><span>Infinix</span><span>Motorola</span><span>AI+</span><span>Redmi</span><span>iPhone</span><span>Nothing</span><span>OnePlus</span><span>Tablets</span></div>
+</div>
+
+<section id="mobiles">
+<div class="title"><h2>Latest Mobile Collection</h2><p>Find your perfect smartphone at PUPU Telecommunications.</p></div>
+<div class="cards">
+<div class="card"><div class="ico">📱</div><h3>Latest Smartphones</h3><p>New models from leading brands.</p></div>
+<div class="card"><div class="ico">📸</div><h3>Camera Phones</h3><p>Great cameras for photos and video.</p></div>
+<div class="card"><div class="ico">⚡</div><h3>Performance Phones</h3><p>Powerful processors for everyday use.</p></div>
+<div class="card"><div class="ico">💎</div><h3>Premium Phones</h3><p>Flagship designs and features.</p></div>
+</div>
+</section>
+
+
+<section id="catalog">
+  <div class="title">
+    <h2>Complete Mobile Collection</h2>
+    <p>Low to high range • Brand-wise • RAM/Storage-wise • Gaming & Premium phones</p>
+  </div>
+
+  <div class="catalog-head">
+    <span class="chip">LOW RANGE</span>
+    <span class="chip">MID RANGE</span>
+    <span class="chip">PREMIUM</span>
+    <span class="chip">GAMING</span>
+    <span class="chip">5G</span>
+    <span class="chip">TABLETS</span>
+  </div>
+
+  <div class="catalog">
+    <div class="brandbox">
+      <h3>vivo</h3>
+      <p>Budget → Mid → Premium • Camera & 5G focused models</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>OPPO</h3>
+      <p>Budget → Mid → Reno/Premium • Camera & fast-charging phones</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>realme</h3>
+      <p>Budget → Performance → GT series • 5G & gaming-friendly choices</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>Samsung</h3>
+      <p>Galaxy A/M/F → S/Flagship range • AMOLED & 5G options</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>Infinix</h3>
+      <p>Budget → Note/GT performance range • Large display & gaming options</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>Motorola</h3>
+      <p>Budget → Edge/Premium • Clean Android experience & 5G</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>AI+</h3>
+      <p>Value-focused smartphones • Budget and entry-level options</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>Redmi</h3>
+      <p>Budget → Note → Performance • 4G/5G options</p>
+      <div class="range"><span>4/64</span><span>4/128</span><span>6/128</span><span>8/128</span><span>8/256</span><span class="hot">12/256</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>iPhone</h3>
+      <p>Apple premium range • Current & available previous-generation models</p>
+      <div class="range"><span>128GB</span><span>256GB</span><span>512GB</span><span class="hot">1TB</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>Nothing</h3>
+      <p>Phone & performance-focused range • Clean design & software</p>
+      <div class="range"><span>8/128</span><span>8/256</span><span>12/256</span><span class="hot">12/512</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>OnePlus</h3>
+      <p>Nord → Number series → Premium • Performance & fast charging</p>
+      <div class="range"><span>8/128</span><span>8/256</span><span>12/256</span><span class="hot">16/512</span></div>
+    </div>
+
+    <div class="brandbox gaming">
+      <h3>🎮 Gaming Phones</h3>
+      <p>High-performance processors, high-refresh displays, large RAM/storage and gaming-focused models.</p>
+      <div class="range"><span>8/128</span><span>8/256</span><span>12/256</span><span>12/512</span><span class="hot">16/512</span></div>
+    </div>
+
+    <div class="brandbox capacity">
+      <h3>💾 Capacity-wise</h3>
+      <p>Customers can filter phones by RAM & storage before choosing a model.</p>
+      <div class="range"><span>4GB RAM</span><span>6GB RAM</span><span>8GB RAM</span><span>12GB RAM</span><span>16GB RAM</span><span>128GB</span><span>256GB</span><span>512GB</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>📱 Tablets</h3>
+      <p>Android & premium tablets • Study, office, entertainment and large-screen use.</p>
+      <div class="range"><span>Wi‑Fi</span><span>4G</span><span>5G</span><span>64GB</span><span>128GB</span><span>256GB</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>⭐ Premium Range</h3>
+      <p>Flagship smartphones for customers looking for premium camera, display, performance and build.</p>
+      <div class="range"><span>8/256</span><span>12/256</span><span>12/512</span><span>16/512</span><span>1TB</span></div>
+    </div>
+
+    <div class="brandbox">
+      <h3>💰 Low to High</h3>
+      <p>Start with affordable phones and move upward by budget, RAM/storage, camera and performance.</p>
+      <div class="range"><span>Entry</span><span>Budget</span><span>Mid</span><span>Upper Mid</span><span>Premium</span><span>Flagship</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="accessories">
+<div class="title"><h2>Mobile Accessories</h2><p>Everything you need for your phone.</p></div>
+<div class="cards">
+<div class="card"><div class="ico">🔌</div><h3>Chargers & Cable</h3></div>
+<div class="card"><div class="ico">🎧</div><h3>Earphones</h3></div>
+<div class="card"><div class="ico">🛡️</div><h3>Cases & Covers</h3></div>
+<div class="card"><div class="ico">🔋</div><h3>Power Banks</h3></div>
+</div>
+</section>
+
+<section id="offers">
+<div class="title"><h2>Offers & Finance</h2><p>Ask our store team about current offers and available finance options.</p></div>
+<div class="offers">
+<div class="offer"><h3>Exchange Your Old Phone</h3><p>Upgrade to your next smartphone and ask about exchange value.</p><a class="btn" href="tel:6290398830">Ask Now</a></div>
+<div class="offer"><h3>Easy EMI</h3><p>Ask about available Bajaj Finserv, HDB and other finance options.</p><a class="btn" href="tel:6290398830">Check EMI</a></div>
+<div class="offer"><h3>Top Accessories</h3><p>Cases, chargers, earphones, screen guards and more.</p><a class="btn" href="#accessories">Shop Accessories</a></div>
+</div>
+</section>
+
+<section id="branches" class="branches">
+<div class="title"><h2>Our 3 Branches</h2><p>Visit your nearest PUPU Telecommunications store.</p></div>
+<div class="branchgrid">
+<div class="branch"><h3>📍 Dankuni Housing</h3><p>Main Store</p></div>
+<div class="branch"><h3>📍 Kalipur</h3><p>Branch 2</p></div>
+<div class="branch"><h3>📍 Mosat</h3><p>Branch 3</p></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="title"><h2>Need a New Phone?</h2><p>Call us for model availability, price, offers and store details.</p></div>
+<div class="phone"><a href="tel:6290398830">6290398830</a></div>
+<a class="btn" href="tel:6290398830">📞 Call PUPU Telecommunications</a>
+</section>
+</main>
+
+<footer>© 2026 PUPU Telecommunications • Kalipur Main Store • Dankuni Housing 2nd Branch • Mosat 3rd Branch<br>Mobile | Accessories | Service</footer>
+</body>
+</html>
